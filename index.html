@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/styles.css"  rel="stylesheet" >
+<!--    <link href="carousel.css" rel="stylesheet">-->
+<!--   <link href="styles/styles.less" rel="stylesheet/less" type="text/css">-->
+   <link href="js/libs/jQueryFormStyler-master/jquery.formstyler.css" rel="stylesheet" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    <script src="js/less.js" type="text/javascript"></script>-->
+   <script src="js/libs/jquery-3.0.0.min.js"></script>
+   <script src="js/libs/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/libs/jQueryFormStyler-master/jquery.formstyler.js"></script>
+</head>
+<body>
+      <div class="site-map">
+          
+     
+       <div class="menu_dark">
+            <div class="arrow"></div>
+            <div class="text1"><p>Каталог авто с пробегом</p></div>
+            <div class="text2"><p>Заявка на оценку авто</p></div>
+            <div class="text3"><p>Варианты продажы</p></div>
+        </div>
+        <div class="menu_right">
+           <div class="location"></div>
+           <div class="calculator"></div>
+           <div class="calendar"></div>
+           <div class="car"></div>
+       </div>
+       <div class="container">
+            <div class="title">
+              <div class="search"></div>
+               <h3>Найдено 3006 автомобилей в <span>13 салонах</span></h3>
+            </div>
+            <div class="menu_filter">
+              
+                <ul class="left">
+                    <li class = "sort">Сортировать по:</li>
+                    <li class = "mark"> <span></span><p>Марке</p>
+<!--                    <span class="arrow_down"></span>-->
+                    </li>
+                    <li class="dropdown">
+                        <select name="" id="">
+                        <option value="">Марке</option>
+                        <option value="">Модели</option>
+                        <option value="">Году</option>
+                        <option value="">Цене</option>
+                        <option value="">Пробегу</option>
+                      </select> 
+                    </li>
+                    <li class = "model"><span></span>Модели</li>
+                    <li class = "year"><span></span>Году</li>
+                    <li class = "price"><span></span>Цене</li>
+                    <li class = "speed"><span></span>Пробегу</li>
+                </ul>
+                <ul class="right">
+                    <li>Вид отображения:</li>
+                    <li class="list"></li>
+                    <li class="block"></li>
+                </ul>
+            </div>
+            <div class="row">
+            <div class="filter_left col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="option-search ">
+                  <div class="contents">
+                   <div class="img"></div>
+                   <h3>Параметры поиска</h3>
+                  </div>
+               </div>
+                <div class="mark-filter">
+                 <div class="form-control ng-pristine ng-valid"><p>Все марки</p> <span></span></div>
+<!--                    <input type="text" placeholder="Все марки" class="form-control ng-pristine ng-valid" data-ng-model="QuickSearch">-->
+                    <div class="modalss">
+                        
+                        <h3>Выбрать марку <span>(25 марок авто)</span></h3>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check1" type="checkbox" name="check" value="check1">
+	                        <label for="check1">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check2" type="checkbox" name="check" value="check1">
+	                        <label for="check2">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check3" type="checkbox" name="check" value="check1">
+	                        <label for="check3">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check4" type="checkbox" name="check" value="check1">
+	                        <label for="check4">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check5" type="checkbox" name="check" value="check1">
+	                        <label for="check5">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check6" type="checkbox" name="check" value="check1">
+	                        <label for="check6">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check7" type="checkbox" name="check" value="check1">
+	                        <label for="check7">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                       <div class="marks">
+                        <div class="checboxs">
+                           <input id="check8" type="checkbox" name="check" value="check1">
+	                        <label for="check7">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check9" type="checkbox" name="check" value="check1">
+	                        <label for="check9">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check10" type="checkbox" name="check" value="check1">
+	                        <label for="check10">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                       <div class="marks">
+                        <div class="checboxs">
+                           <input id="check11" type="checkbox" name="check" value="check1">
+	                        <label for="check11">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check12" type="checkbox" name="check" value="check1">
+	                        <label for="check12">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                       <div class="marks">
+                        <div class="checboxs">
+                           <input id="check13" type="checkbox" name="check" value="check1">
+	                        <label for="check13">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check14" type="checkbox" name="check" value="check1">
+	                        <label for="check14">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check15" type="checkbox" name="check" value="check1">
+	                        <label for="check15">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                      <div class="marks">
+                        <div class="checboxs">
+                           <input id="check16" type="checkbox" name="check" value="check1">
+	                        <label for="check16">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                       <div class="marks">
+                        <div class="checboxs">
+                           <input id="check17" type="checkbox" name="check" value="check1">
+	                        <label for="check17">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                       <div class="marks">
+                        <div class="checboxs">
+                           <input id="check18" type="checkbox" name="check" value="check1">
+	                        <label for="check18">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                       <div class="marks">
+                        <div class="checboxs">
+                           <input id="check19" type="checkbox" name="check" value="check1">
+	                        <label for="check19">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                       <div class="marks">
+                        <div class="checboxs">
+                           <input id="check20" type="checkbox" name="check" value="check1">
+	                        <label for="check20">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                      <div class="marks">
+                        <div class="checboxs">
+                           <input id="check21" type="checkbox" name="check" value="check1">
+	                        <label for="check21">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                       <div class="marks">
+                        <div class="checboxs">
+                           <input id="check22" type="checkbox" name="check" value="check1">
+	                        <label for="check22">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                       <div class="marks">
+                        <div class="checboxs">
+                           <input id="check23" type="checkbox" name="check" value="check1">
+	                        <label for="check23">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                      <div class="marks">
+                        <div class="checboxs">
+                           <input id="check24" type="checkbox" name="check" value="check1">
+	                        <label for="check24">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                        <div class="marks">
+                        <div class="checboxs">
+                           <input id="check25" type="checkbox" name="check" value="check1">
+	                        <label for="check25">
+                        <div class="avtomark">Mitsubishi</div>
+                        <div class="quality">(10)</div>
+	                        </label>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="model-filter">
+                   <div class="form-control ng-pristine ng-valid"><p>Все модели</p> <span></span></div>
+<!--                    <input type="text" placeholder="Все модели" class="form-control ng-pristine ng-valid" data-ng-model="QuickSearch">-->
+                </div>
+                <div class="year-filter">
+                    <h5>Год</h5>
+                    <hr>
+                    <div data-ng-if="item.viewType =='range' " class="ng-scope">
+			<div class="range-slider slider-range-container box-row clearfix">
+
+				<div class="clearfix">
+					<input type="text" class="range-from" value="2000">
+					<input type="text" class="range-to" value="2017">
+				</div>
+			<br>
+				<div id="slider">
+				<div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 0%; width: 100%;"></div>
+             	<span class="ui-slider-handle handle1 ui-state-default ui-corner-all" tabindex="0" style="left: 2%;"></span>
+				<span class="ui-slider-handle handle2 ui-state-default ui-corner-all" tabindex="0" style="left:90%;"></span>
+				</div>
+				
+
+			</div>
+		</div>
+                </div>
+                <div class="trnsmission">
+                    <h4>Коробка передач</h4>
+                    <hr>
+                    <div class="avtomat"><p>Автомат</p></div>
+                    <div class="mehanik"><p>Механика</p></div>
+                </div>
+                <div class="mileage">
+                    <h4>Пробег, тыс/км</h4>
+                    <hr>
+                    <div class="frm"><p>От</p></div>
+                    <div class="to"><p>До</p></div>
+                    <br>
+				<div slider="" min="item.rangeStart" max="item.rangeEnd" start="item.start" end="item.end" class="cdbl-slider ng-isolate-scope ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" onend="grabMeta()" onchnage="addTometa(item.metakey ,item.start , item.end)" key="item.metakey"><div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 0%; width: 96%;"></div><span class="ui-slider-handle1 handle3 ui-state-default ui-corner-all" tabindex="0" style="left: 6%;"></span><span class="ui-slider-handle1 handle4 ui-state-default ui-corner-all" tabindex="0" style="left:86%;"></span>
+               <span class="first">10</span>
+               <span>50</span>
+               <span>100</span>
+               <span>200</span>
+               <span>300</span>
+               <span>400</span>
+               </div>
+                </div>
+                <div class="price-filter">
+                    <h4>Цена, тыс/tg</h4>
+                    <hr>
+                    <div class="frm"><p>От</p></div>
+                    <div class="to"><p>До</p></div>
+                    <br>
+				<div slider="" min="item.rangeStart" max="item.rangeEnd" start="item.start" end="item.end" class="cdbl-slider ng-isolate-scope ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" onend="grabMeta()" onchnage="addTometa(item.metakey ,item.start , item.end)" key="item.metakey"><div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 0%; width: 95%;"></div><span class="ui-slider-handle2 handle5 ui-state-default ui-corner-all" tabindex="0" style="left: 6%;"></span><span class="ui-slider-handle2 handle6 ui-state-default ui-corner-all" tabindex="0" style="left:86%;"></span>
+               <span class="first">10</span>
+               <span>50</span>
+               <span>100</span>
+               <span>200</span>
+               <span>300</span>
+               <span>400</span>
+               </div>
+                </div>
+                <div class="filter_more">
+                    <h4>Больше фильтров</h4>
+                    <span></span>
+                </div>
+                <div class="btn">
+                    <h4>Показать 100 авто</h4>
+                </div>
+                <div class="clear_filter">
+                   <span></span>
+                    <h4>Очистить все фильтры</h4>
+                </div>
+            </div>
+            <div class="content f col-xs-12 col-sm-9 col-md-9 col-lg-9">
+               <div class="row">
+                <div class="photo col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                <div class="describe col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <h3>BMV X6</h3>
+                    <ul class="describe_auto">
+                        <li>2007 г</li>
+                        <hr>
+                        <li>98 000 км</li>
+                        <hr>
+                        <li>3.2 л</li>
+                        <hr>
+                        <li>АКПП</li>
+                        <hr>
+                        <li>Полный привод</li>
+                    </ul>
+                    <p>Антиблокировочная система (ABS), cистема курсовой устойчивости (ESP), датчик дождя, парктроник,  электроусилитель руля, круиз-контроль, электропривод зеркал, обогрев зеркал, стеклоподъемники: электрические передние и задние..</p>
+                    <div class="old_price">2 800 000 ТГ</div>
+                    <div class="price">2 550 000 ТГ</div>
+                    <div class="more_info"><p>Подробнее</p></div>
+                </div>
+                </div>
+            </div>
+             <div class="content col-xs-12 col-sm-9 col-md-9 col-lg-9">
+               <div class="row">
+                <div class="photo col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                <div class="describe col-xs-8 col-sm-8 col-md-8 col-lg-8" >
+                    <h3>BMV X6</h3>
+                    <ul class="describe_auto">
+                        <li>2007 г</li>
+                        <hr>
+                        <li>98 000 км</li>
+                        <hr>
+                        <li>3.2 л</li>
+                        <hr>
+                        <li>АКПП</li>
+                        <hr>
+                        <li>Полный привод</li>
+                    </ul>
+                    <p>Антиблокировочная система (ABS), cистема курсовой устойчивости (ESP), датчик дождя, парктроник,  электроусилитель руля, круиз-контроль, электропривод зеркал, обогрев зеркал, стеклоподъемники: электрические передние и задние..</p>
+                    <div class="old_price"></div>
+                    <div class="price">2 550 000 ТГ</div>
+                    <div class="more_info"><p>Подробнее</p></div>
+                </div>
+                </div>
+            </div>
+             <div class="content col-xs-12 col-sm-9 col-md-9 col-lg-9">
+               <div class="row">
+                <div class="photo col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                <div class="describe col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <h3>BMV X6</h3>
+                    <ul class="describe_auto">
+                        <li>2007 г</li>
+                        <hr>
+                        <li>98 000 км</li>
+                        <hr>
+                        <li>3.2 л</li>
+                        <hr>
+                        <li>АКПП</li>
+                        <hr>
+                        <li>Полный привод</li>
+                    </ul>
+                    <p>Антиблокировочная система (ABS), cистема курсовой устойчивости (ESP), датчик дождя, парктроник,  электроусилитель руля, круиз-контроль, электропривод зеркал, обогрев зеркал, стеклоподъемники: электрические передние и задние..</p>
+                      <div class="old_price"></div>
+                    <div class="price">2 550 000 ТГ</div>
+                    <div class="more_info"><p>Подробнее</p></div>
+                </div>
+                </div>
+            </div>
+             <div class="content col-xs-12 col-sm-9 col-md-9 col-lg-9">
+               <div class="row">
+                <div class="photo col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                <div class="describe col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <h3>BMV X6</h3>
+                    <ul class="describe_auto">
+                        <li>2007 г</li>
+                        <hr>
+                        <li>98 000 км</li>
+                        <hr>
+                        <li>3.2 л</li>
+                        <hr>
+                        <li>АКПП</li>
+                        <hr>
+                        <li>Полный привод</li>
+                    </ul>
+                    <p>Антиблокировочная система (ABS), cистема курсовой устойчивости (ESP), датчик дождя, парктроник,  электроусилитель руля, круиз-контроль, электропривод зеркал, обогрев зеркал, стеклоподъемники: электрические передние и задние..</p>
+                      <div class="old_price"></div>
+                    <div class="price">2 550 000 ТГ</div>
+                    <div class="more_info"><p>Подробнее</p></div>
+                </div>
+                </div>
+            </div>
+             <div class="content col-xs-12 col-sm-9 col-md-9 col-lg-9">
+               <div class="row">
+                <div class="photo col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                <div class="describe col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <h3>BMV X6</h3>
+                    <ul class="describe_auto">
+                        <li>2007 г</li>
+                        <hr>
+                        <li>98 000 км</li>
+                        <hr>
+                        <li>3.2 л</li>
+                        <hr>
+                        <li>АКПП</li>
+                        <hr>
+                        <li>Полный привод</li>
+                    </ul>
+                    <p>Антиблокировочная система (ABS), cистема курсовой устойчивости (ESP), датчик дождя, парктроник,  электроусилитель руля, круиз-контроль, электропривод зеркал, обогрев зеркал, стеклоподъемники: электрические передние и задние..</p>
+                      <div class="old_price"></div>
+                    <div class="price">2 550 000 ТГ</div>
+                    <div class="more_info"><p>Подробнее</p></div>
+                </div>
+                </div>
+            </div>
+             <div class="content col-xs-12 col-sm-9 col-md-9 col-lg-9">
+               <div class="row">
+                <div class="photo col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                <div class="describe col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <h3>BMV X6</h3>
+                    <ul class="describe_auto">
+                        <li>2007 г</li>
+                        <hr>
+                        <li>98 000 км</li>
+                        <hr>
+                        <li>3.2 л</li>
+                        <hr>
+                        <li>АКПП</li>
+                        <hr>
+                        <li>Полный привод</li>
+                    </ul>
+                    <p>Антиблокировочная система (ABS), cистема курсовой устойчивости (ESP), датчик дождя, парктроник,  электроусилитель руля, круиз-контроль, электропривод зеркал, обогрев зеркал, стеклоподъемники: электрические передние и задние..</p>
+                      <div class="old_price"></div>
+                    <div class="price">2 550 000 ТГ</div>
+                    <div class="more_info"><p>Подробнее</p></div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="btn_more"><p>Загрузить больше</p></div>
+            <div class="pagination">
+                <ul>
+                   <li class="prev"></li>
+                   <li class="number">1</li>
+                   <li class="number">2</li>
+                   <li class="number">3</li>
+                   <li class="number">4</li>
+                   <li class="number">...</li>
+                   <li class="number">12</li>
+                   <li class="next"></li> 
+                </ul>
+            </div>
+       </div>
+          <div id="scroll_up" class="scroll-up">
+              
+          </div>     
+       </div>
+    <script type="text/javascript" src="js/filter-range.js"></script>
+    <script src="js/scroll_up.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.ui-slider.js" ></script>
+    
+</body>
+</html>

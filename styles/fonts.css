@@ -1,0 +1,16 @@
+@font-face {
+    font-family: MontserratBold;
+    src: url(../fonts/NissanBrand-Bold.otf);
+}
+@font-face {
+    font-family: NissanBrand;
+    src: url(../fonts/NissanBrand-Light.otf);
+}
+@font-face {
+    font-family: NissanBrand;
+    src: url(../fonts/NissanBrand-Italic.otf);
+}
+@font-face {
+    font-family: NissanBrand;
+    src: url(../fonts/NissanBrand-Regular.otf);
+}
